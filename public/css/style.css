@@ -16,8 +16,9 @@ body{
     height: 90vh;
     text-align: center;
 }
-.childContetn{
-
+#test{
+    display: flex;
+    flex-direction: column-reverse;
 }
 #mainTitle{
     font-size: clamp(1rem, 3vh + 2vw, 12rem);
@@ -27,14 +28,21 @@ input{
     border-radius: 4px;
 }
 #mButton{
-    color: black;
-    border-radius: 2px;
-    padding: 2.8%;
+    padding: 2.2%;
     background-color: #FFEA00;
     color: black;
     font-family: "CustomFont";
     font-size: clamp(1rem, 0.4vh + 0.5vw, 3rem);
     border-radius: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 40%;
+}
+.searchBar{
+    height: 5vh;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+label{
+    text-align: left;
+    font-size: clamp(0.7rem, 1vh + 1.4vw, 7rem);;
 }
